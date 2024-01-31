@@ -2,8 +2,8 @@ import { User } from "../models/user-model";
 import usersApi from "../api/users-api";
 
 // Registrar un usuario
-const recordUser = async (name, surname, brithdate, age, address, phoneNumber, studentId, email_address, password) => {
-    const newUser = new User(name, surname, brithdate, age, address, phoneNumber, studentId, email_address, password);
+const recordUser = async (name, surname, brithdate, age, address, phoneNumber, email_address, user_name, password, confirm_password) => {
+    const newUser = new User(name, surname, brithdate, age, address, phoneNumber, email_address, user_name, password, confirm_password);
     // Guardar usuario en la base de datos
     await usersApi.recordUser(newUser);
 };

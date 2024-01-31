@@ -1,36 +1,79 @@
-<div class="form_3 data_info" style="display: none;">
-    <h2>Cuestionario de Admisión</h2>
-    <h3>"A continuación, dejo expresa constancia que la siguiente información solicitada, es cierta y verdadera:"</h3>
-    <form>
-      <div class="form_container">
-        <div class="input_wrap">
-          <label for="questions_1">¿Padece afecciones cardiacas?</label>
-          <input type="text" name="¿Padece afecciones cardiacas?" class="input" id="questions_1" required>
-        </div>
-        <div class="input_wrap">
-          <label for="questions_2">¿Padece afecciones respiratorias?</label>
-          <input type="text" name="¿Padece afecciones respiratorias?" class="input" id="questions_2" required>
-        </div>
-        <div class="input_wrap">
-          <label for="questions_3">¿Padece afecciones neurológicas?</label>
-          <input type="text" name="¿Padece afecciones neurológicas?" class="input" id="questions_3" required>
-        </div>
-        <div class="input_wrap">
-          <label for="questions_4">¿Padece lesiones articulares?</label>
-          <input type="text" name="¿Padece lesiones articulares?" class="input" id="questions_4" required>
-        </div>
-        <div class="input_wrap">
-          <label for="questions_5">¿Padece lesiones óseas (fracturas)?</label>
-          <input type="text" name="¿Padece lesiones óseas (fracturas)?" class="input" id="questions_5" required>
-        </div>
-        <div class="input_wrap">
-          <label for="questions_6">¿Padece presión arterial normal?</label>
-          <input type="text" name="¿Padece presión arterial normal?" class="input" id="questions_6" required>
-        </div>
-        <div class="input_wrap">
-          <label for="questions_7">¿Fuma?</label>
-          <input type="text" name="¿Fuma?" class="input" id="questions_7" required>
+<div class="form_wrap form_3 data_info" id="formAdmission" action="">
+  <h2>Cuestionario de Admisión</h2>
+  <h3>"A continuación, dejo expresa constancia que la siguiente información solicitada, es cierta y verdadera:"</h3>
+  <form>
+    <div class="form_container">
+      <div class="input_wrap">
+        <label for="questions_1">¿Padece afecciones cardiacas?</label>
+        <div class="answer">
+          <label for="yes_1">SI</label>
+          <input type="radio" name="¿Padece afecciones cardiacas?" class="input yesNo" id="yes_1" value="si" required>
+          <label for="no_1">NO</label>
+          <input type="radio" name="¿Padece afecciones cardiacas?" class="input yesNo" id="no_1" value="no" required>
         </div>
       </div>
-    </form>
-  </div>
+      <div class="input_wrap">
+        <label for="questions_2">¿Padece afecciones respiratorias?</label>
+        <div class="answer">
+          <label for="yes_2">SI</label>
+          <input type="radio" name="¿Padece afecciones respiratorias?" class="input yesNo" id="yes_2" value="yes" required>
+          <label for="no_2">NO</label>
+          <input type="radio" name="¿Padece afecciones respiratorias?" class="input yesNo" id="no_2" value="no" required>
+        </div>
+      </div>
+      <div class="input_wrap">
+        <label for="questions_3">¿Padece afecciones neurológicas?</label>
+        <div class="answer">
+          <label for="yes_3">SI</label>
+          <input type="radio" name="¿Padece afecciones neurológicas?" class="input yesNo" id="yes_3" value="yes" required>
+          <label for="no_3">NO</label>
+          <input type="radio" name="¿Padece afecciones neurológicas?" class="input yesNo" id="no_3" value="no" required>
+        </div>
+      </div>
+      <div class="input_wrap">
+        <label for="questions_4">¿Padece lesiones articulares?</label>
+        <div class="answer">
+          <label for="yes_4">SI</label>
+          <input type="radio" name="¿Padece lesiones articulares?" class="input yesNo" id="yes_4" value="yes" required>
+          <label for="no_4">NO</label>
+          <input type="radio" name="¿Padece lesiones articulares?" class="input yesNo" id="no_4" value="no" required>
+        </div>
+      </div>
+      <div class="input_wrap">
+        <label for="questions_5">¿Padece lesiones óseas (fracturas)?</label>
+        <div class="answer">
+          <label for="yes_5">SI</label>
+          <input type="radio" name="¿Padece lesiones óseas (fracturas)?" class="input yesNo" id="yes_5" value="yes" required>
+          <label for="no_5">NO</label>
+          <input type="radio" name="¿Padece lesiones óseas (fracturas)?" class="input yesNo" id="no_5" value="no" required>
+        </div>
+      </div>
+      <div class="input_wrap">
+        <label for="questions_6">¿Padece presión arterial normal?</label>
+        <div class="answer">
+          <label for="yes_6">SI</label>
+          <input type="radio" name="¿Padece presión arterial normal?" class="input yesNo" id="yes_6" value="yes" required>
+          <label for="no_6">NO</label>
+          <input type="radio" name="¿Padece presión arterial normal?" class="input yesNo" id="no_6" value="no" required>
+        </div>
+      </div>
+      <div class="input_wrap">
+        <label for="questions_7">¿Fuma?</label>
+        <div class="answer">
+          <label for="yes_7">SI</label>
+          <input type="radio" name="¿Fuma?" class="input yesNo" id="yes_7" value="yes" required>
+          <label for="no_7">NO</label>
+          <input type="radio" name="¿Fuma?" class="input yesNo" id="no_7" value="no" required>
+        </div>
+      </div>
+      <div class="input_wrap">
+        <label for="questions_8">¿Qué esperas de las clases?</label>
+        <div class="answer">
+          <textarea name="textarea" rows="10" cols="50"></textarea>
+        </div>
+      </div>
+    </div>
+    <input class="btn btn-primary mt-3" type="submit" value="Finalizar">
+  </form>
+
+</div>
