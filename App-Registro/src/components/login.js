@@ -24,15 +24,24 @@ export const login = () => {
         const status = await usersManager.loginUser(email.value, user_name.value, password.value);
         console.log(status);
         if (status) {
+            Swal.fire({
+                icon: "success",
+                title: "BIENVENIDO",
+                text: "Serás redirigido a nuestra web",
+                showConfirmButton: false,
+                timer: 1500
+            });
             window.open (window.location.href = "https://villamaipupilates.netlify.app/", "_blank");
         } else {
             Swal.fire({
-                title: "Email o Contraseña no válido",
+                icon: "error",
+                title: "ERROR",
+                text: "Email o Contraseña no válido",
             });
         }
-    };
 
-    linkRecord.onclick = () => {
-        Record();
-    };
-};
+        linkRecord.onclick = () => {
+            Record();
+        };
+    }
+}

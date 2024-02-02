@@ -29,15 +29,21 @@ export const AdmissionForm = (email_address) => {
         console.log(status);
         if (status) {
             Swal.fire({
-                title: "Bienvenido, registro completo!",
+                position: "center",
+                icon: "success",
+                title: "Registro Completo",
+                showConfirmButton: false,
+                timer: 1500
             });
             Login();
         } else {
             Swal.fire({
-                title: "Error en carga de datos",
+                icon: "error",
+                title: "ERROR",
+                text: "Error, los datos ingresados no son validos",
             });
         }
     };
-
 }
+
 
