@@ -5,7 +5,7 @@ import loginPage from "../pages/login.html?raw";
 import { Record } from "./record";
 
 
-export const login = () => {
+export const Login = () => {
     //Llama a la pagina de login y toma los datos de login usuario
     rootApp.innerHTML = "";
     rootApp.innerHTML = loginPage;
@@ -21,7 +21,7 @@ export const login = () => {
         console.log(email_address.value);
         console.log(user_name.value);
         console.log(password.value);
-        const status = await usersManager.loginUser(email.value, user_name.value, password.value);
+        const status = await usersManager.loginUser(email_address.value, user_name.value, password.value);
         console.log(status);
         if (status) {
             Swal.fire({
@@ -38,10 +38,10 @@ export const login = () => {
                 title: "ERROR",
                 text: "Email o Contraseña no válido",
             });
-        }
-
+        };
+    };
         linkRecord.onclick = () => {
             Record();
         };
-    }
 }
+

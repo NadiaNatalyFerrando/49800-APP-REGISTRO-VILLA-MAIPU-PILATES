@@ -1,4 +1,122 @@
 {
-    "users": []
-    "admission": []
+  "users": [
+    {
+      "id": "166457b1-49e4-4b52-ab5e-984796d1cd63",
+      "name": "Florencia ",
+      "surname": "Ferrando",
+      "birthdate": "1993-01-19",
+      "age": "31",
+      "address": "E. C. Villegas 1657, Villa Maipú ",
+      "phoneNumber": "1134758657",
+      "email_address": "florenciaferrando@gmail.com",
+      "user_name": "Florencia-Ferrando",
+      "password": "1234",
+      "confirm_password": "1234"
+    },
+    {
+      "id": "391869d1-7862-4109-a8dc-feed1d8b024c",
+      "name": "Florencia ",
+      "surname": "Ferrando",
+      "birthdate": "1993-03-19",
+      "age": "31",
+      "address": "E. C. Villegas 1657, Villa Maipú ",
+      "phoneNumber": "1134758657",
+      "email_address": "florenciaferrando@gmail.com",
+      "user_name": "Florencia-Ferrando",
+      "password": "1234",
+      "confirm_password": "1234"
+    },
+    {
+      "id": "c88f9d18-a9e1-43c0-b756-027cc0adcffd",
+      "name": "Florencia ",
+      "surname": "Ferrando",
+      "birthdate": "1222-12-12",
+      "age": "21",
+      "address": "E. C. Villegas 1657, Villa Maipú ",
+      "phoneNumber": "1134758657",
+      "email_address": "nadianatalyerrando@gmail.com",
+      "user_name": "Florencia-Ferrando",
+      "password": "1234",
+      "confirm_password": "12234"
+    },
+    {
+      "id": "dbffcb8e-5500-462e-99ec-374b6570beff",
+      "name": "Nadia Nataly",
+      "surname": "Ferrando",
+      "birthdate": "1990-03-06",
+      "age": "33",
+      "address": "E. C. Villegas 1657, Villa Maipú ",
+      "phoneNumber": "1134758657",
+      "email_address": "nadianatalyferrando@gmail.com",
+      "user_name": "Nadia-Ferrando",
+      "password": "1234",
+      "confirm_password": "1234"
+    },
+    {
+      "id": "1d40e137-4e44-432a-ba19-a57c82011f57",
+      "name": "Nadia Nataly",
+      "surname": "Ferrando",
+      "birthdate": "1990-03-06",
+      "age": "33",
+      "address": "E. C. Villegas 1657, Villa Maipú ",
+      "phoneNumber": "1134758657",
+      "email_address": "nadianatalyferrando@gmail.com",
+      "user_name": "Nadia-Ferrando",
+      "password": "1234",
+      "confirm_password": "1234"
+    },
+    {
+      "id": "ee406170-a7ef-43dd-a82b-6565f817d683",
+      "name": "Matias",
+      "surname": "diaz",
+      "birthdate": "1990-04-22",
+      "age": "32",
+      "address": "E. C. Villegas 1657, Villa Maipú ",
+      "phoneNumber": "1134758657",
+      "email_address": "matiasd@gmail.com",
+      "user_name": "Matias-Diaz",
+      "password": "1234",
+      "confirm_password": "1234"
+    },
+    {
+      "id": "a51b6f57-fd16-4de9-892c-c0ac0e799b52",
+      "name": "Matias",
+      "surname": "diaz",
+      "birthdate": "1334-12-12",
+      "age": "21",
+      "address": "E. C. Villegas 1657, Villa Maipú ",
+      "phoneNumber": "1134758657",
+      "email_address": "matiasd@gmail.com",
+      "user_name": "Matias-Diaz",
+      "password": "1234",
+      "confirm_password": "1234"
+    },
+    {
+      "id": "6ef0f003-ba2d-431e-a016-d287fa1e76ec",
+      "name": "Matias",
+      "surname": "diaz",
+      "birthdate": "1111-11-11",
+      "age": "11",
+      "address": "E. C. Villegas 1657, Villa Maipú ",
+      "phoneNumber": "1134758657",
+      "email_address": "matiasd@gmail.com",
+      "user_name": "Matias-Diaz",
+      "password": "1234",
+      "confirm_password": "1234"
+    }
+  ],
+  "admission": [
+    {
+      "id": "nadianatalyerrando@gmail.com",
+      "respuestas": [
+        "no",
+        "yes",
+        "yes",
+        "yes",
+        "yes",
+        "no",
+        "no"
+      ]
+    }
+  ]
 }

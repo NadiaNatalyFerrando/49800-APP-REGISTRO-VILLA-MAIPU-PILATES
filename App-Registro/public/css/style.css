@@ -165,4 +165,3 @@ body{
 .wrapper .form_wrap .input_wrap .answer .input:checked + label{
 	background-image: url("../assets/img/radiobuttonon_110976.svg");
 }
-

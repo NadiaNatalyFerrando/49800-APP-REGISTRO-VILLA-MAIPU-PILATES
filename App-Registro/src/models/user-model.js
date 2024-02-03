@@ -1,7 +1,7 @@
-import { v4 as generarID } from "uuid"
+import { v4 as generateID } from "uuid"
 
 export class User {
-    constructor(name, surname, birthdate, age, address, phoneNumber, studentId, email_address, password) {
+    constructor(name, surname, birthdate, age, address, phoneNumber, email_address, user_name, password, confirm_password) {
         this.id = generateID();
         this.name = name;
         this.surname = surname;

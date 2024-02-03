@@ -1,6 +1,6 @@
-import { login } from "./components/login";
+import { Login } from "./components/login";
 
 export const app = () => {
       
-      login();
+      Login();
 }

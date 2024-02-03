@@ -8,7 +8,7 @@ export const AdmissionForm = (email_address) => {
 
     rootApp.innerHTML = "";
     rootApp.innerHTML = admissionFormPage;
-    let admissionFrom = document.querySelector('#admissionForm');
+    let admissionFrom = document.querySelector('#formAdmission');
 
 
     admissionFrom.onsubmit = async (e) => {
@@ -40,9 +40,9 @@ export const AdmissionForm = (email_address) => {
             Swal.fire({
                 icon: "error",
                 title: "ERROR",
-                text: "Error, los datos ingresados no son validos",
+                text: "Error, los datos ingresados no son validos"
             });
-        }
+        };
     };
 }
 

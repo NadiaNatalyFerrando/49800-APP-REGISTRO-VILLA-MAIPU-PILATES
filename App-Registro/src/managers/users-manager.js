@@ -23,7 +23,7 @@ const searchUserByEmail = async (email_address) => {
 // Login de usuario
 const loginUser = async (email_address, user_name, password, confirm_password) => {
     // Buscamos si existe el usuarios
-    let user = await searchUserByEmail(email_address);
+    let user = await searchUserByEmail(email_address, user_name, password, confirm_password);
     // Si el usuario no existe retornamos false
     if (!user) {
         return false;

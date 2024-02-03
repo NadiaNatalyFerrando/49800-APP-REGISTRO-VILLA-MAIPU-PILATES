@@ -22,9 +22,9 @@ export const Record = () => {
 
     formRecord.onsubmit = (e) => {
         e.preventDefault();
-       const status = usersManager.recordUser(name.value, surname.value, brithdate.value, age.value, address.value, phoneNumber.value, user_name.value, password.value, confirm_password.value);
+       const status = usersManager.recordUser(name.value, surname.value, brithdate.value, age.value, address.value, phoneNumber.value, email_address.value, user_name.value, password.value, confirm_password.value);
         if(status) {
-            AdmissionForm(email_address.value);
+            AdmissionForm(name.value, surname.value, email_address.value);
         }
     }
 
